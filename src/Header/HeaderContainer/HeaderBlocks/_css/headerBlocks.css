@@ -1,0 +1,17 @@
+.header__blocks {
+    display: flex;
+    justify-content: space-between;
+
+    width: 689px;
+}
+
+.header__block {
+    display: flex;
+    align-items: center;
+
+    height: 40px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.header-container {
+    overflow-x: hidden;
+
+    width: 100%;
+    max-width: 1440px;
+    height: 300px;
+}
+
+.header__box-container {
+    position: relative;
+    z-index: 1;
+}
+
+.header__box-container_with-gallery {
+    box-shadow: 0px 12px 20px rgba(74, 74, 74, 0.25);
+}
+
+.header__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1262px;
+    height: 72px;
+    padding: 0 20px 0 58px;
+    margin: 0 auto;
+}

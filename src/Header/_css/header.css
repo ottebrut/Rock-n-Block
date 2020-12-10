@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('../_fonts/Manrope-Bold.eot');
+    src: url('../_fonts/Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../_fonts/Manrope-Bold.woff2') format('woff2'),
+    url('../_fonts/Manrope-Bold.woff') format('woff'),
+    url('../_fonts/Manrope-Bold.ttf')  format('truetype');
+}
+
+button,
+input {
+    padding: 0;
+    border: 0;
+
+    font: inherit;
+}
+
+a:focus,
+button:focus,
+input:focus {
+    outline: none;
+
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, .5);
+}
+
+.header {
+    position: relative;
+
+    width: 100%;
+    height: 72px;
+
+    box-shadow: 0 1px 0 #E5E9F2;
+
+    font-family: Manrope, sans-serif;
+    font-weight: bold;
+    font-size: 0.83rem;
+    line-height: 20px;
+    font-feature-settings: 'liga' off;
+
+    --blue: #005DC4;
+    --light-blue: rgba(255, 255, 255, 0.25);
+    --grey: #717182;
+}
+
+.header__container {
+    margin: 0 auto;
+}
+
+.header__gallery {
+    position: absolute;
+    top: 72px;
+    left: calc(50% - 720px);
+
+    display: none;
+}
+
+.header__gallery_active {
+    display: block;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .header__gallery {
+        left: 0;
+
+        width: 100%;
+    }
+}

@@ -1,0 +1,133 @@
+.buy-cards-container {
+    position: relative;
+
+    width: 184px;
+}
+
+.buy-cards-dropdown {
+    justify-content: space-between;
+
+    width: 100%;
+
+    background-color: var(--blue);
+    color: white;
+}
+
+.buy-cards-dropdown__text {
+    margin-left: 10px;
+}
+
+.buy-cards-dropdown__sign {
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+
+    border-radius: 8px;
+
+    background: var(--light-blue) no-repeat center url(../_img/buyCardsArrow.svg);
+    transform: rotate(180deg);
+}
+
+.buy-cards-dropdown__sign_active {
+    transform: rotate(0);
+}
+
+.buy-cards__form {
+    display: none;
+}
+
+.buy-cards__form_active {
+    display: block;
+}
+
+.buy-cards-form {
+    position: absolute;
+
+    box-sizing: border-box;
+    width: 184px;
+    height: 177px;
+    padding: 15px 0 20px;
+    margin-top: 1px;
+
+    border-radius: 8px;
+
+    background-color: var(--blue);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.buy-cards-form__input-container {
+    margin: 0 auto 20px;
+}
+
+.buy-cards-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 144px;
+}
+
+.buy-cards-input-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 28px;
+    height: 28px;
+
+    border-radius: 50%;
+
+    background-color: var(--light-blue);
+    cursor: pointer;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.buy-cards-input {
+    width: 60px;
+    height: 48px;
+
+    border-radius: 12px;
+
+    background-color: var(--light-blue);
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.buy-cards-input::-webkit-outer-spin-button,
+.buy-cards-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.buy-cards-input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.buy-cards-form__money-sum {
+    margin-bottom: 20px;
+
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.buy-cards-form__submit-button {
+    display: block;
+
+    width: 156px;
+    height: 34px;
+    margin: 0 auto;
+
+    border-radius: 8px;
+
+    background-color: white;
+    color: var(--blue);
+    cursor: pointer;
+}

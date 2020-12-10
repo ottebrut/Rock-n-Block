@@ -1,0 +1,13 @@
+.login {
+    width: 303px;
+
+    background: #3F3F47 no-repeat 7px center url(../_img/loginBackground.svg);
+    text-decoration: none;
+}
+
+.login__text {
+    margin-left: 42px;
+
+    color: white;
+    line-height: 20px;
+}
